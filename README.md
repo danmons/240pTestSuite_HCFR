@@ -17,6 +17,14 @@ The HCFR project is located here:
 
 This project aims to collect output information of various consoles to aid in generating HCFR-compatible test patterns for the 240p Test Suite. Every console has a unique (and often non-standards-compliant) analogue video output, which makes using it as a calibration source to documented standards such as Rec.601 difficult. The values collected in this project account for those variances so that an unmofidied console can be used as an accurate colour pattern generator.
 
+## CSV Format
+
+The CSV files are plain text UTF-8 comma separated, and are formatted left-to-right as such: 
+* Colour name (lower case, no spaces, three digit value if on a 000-100 scale)
+* R, G, B values (one column each)
+* X, Y, Z values (one column each)
+* L, a, b values (one column each)
+
 ## Alternative sources for colour pattern generation
 
 If you don't want to use a video game console to calibrate your display, you can use test pattern discs for video players (and consoles that play video files) to generate test patterns.  Examples are:
