@@ -21,7 +21,7 @@ This project aims to collect output information of various consoles to aid in ge
 
 The CSV files are plain text UTF-8 comma separated, and are formatted left-to-right as such: 
 * Colour name (lower case, no spaces, three digit value if on a 000-100 scale)
-* R, G, B values (one column each)
+* R, G, B values (one column each, 8 bit RGB full range 0-255)
 * X, Y, Z values (one column each)
 * L, a, b values (one column each)
 
