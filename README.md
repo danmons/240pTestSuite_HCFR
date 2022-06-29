@@ -22,8 +22,8 @@ This project aims to collect output information of various consoles to aid in ge
 If you don't want to use a video game console to calibrate your display, you can use test pattern discs for video players (and consoles that play video files) to generate test patterns.  Examples are:
 
 * AVS HD 709 for Rec.709 HDTV calibration (mp4 files, Blu-ray ISO files, DVD-R ISO files in Blu-ray/h264/mp4 format)
- ** https://www.avsforum.com/forum/139-display-calibration/948496-avs-hd-709-blu-ray-mp4-calibration.html
+ * https://www.avsforum.com/forum/139-display-calibration/948496-avs-hd-709-blu-ray-mp4-calibration.html
 * FreeCalRec601 for Rec.601 SDTV calibration (DVD format)
- ** https://github.com/danmons/FreeCalRec601
+ * https://github.com/danmons/FreeCalRec601
 
 .
