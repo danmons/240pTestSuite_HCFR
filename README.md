@@ -26,3 +26,5 @@ If you don't want to use a video game console to calibrate your display, you can
 
 * FreeCalRec601 for Rec.601 SDTV calibration (DVD format)
  ** https://github.com/danmons/FreeCalRec601
+
+.
