@@ -17,6 +17,8 @@ The HCFR project is located here:
 
 This project aims to collect output information of various consoles to aid in generating HCFR-compatible test patterns for the 240p Test Suite. Every console has a unique (and often non-standards-compliant) analogue video output, which makes using it as a calibration source to documented standards such as Rec.601 difficult. The values collected in this project account for those variances so that an unmofidied console can be used as an accurate colour pattern generator.
 
+Special thanks to (Artemio)[https://twitter.com/Artemio] and (Keith Raney)[https://twitter.com/khmr33] for their hard work finding out the console voltage variances, and collecting the data documented here. 
+
 ## CSV Format
 
 The CSV files are plain text UTF-8 comma separated, and are formatted left-to-right as such: 
