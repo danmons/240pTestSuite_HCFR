@@ -28,7 +28,8 @@ then
 fi
 
 # Get filename prefix and make output dir
-PREF=$( basename "${1}" | awk -F '_' '{print $1}' )
+FNAME=$( basename "${1}" )
+PREF="${FNAME%.*}"
 PDIR="../png/${PREF}"
 TDIR="../tmp"
 mkdir -p "${TDIR}"
