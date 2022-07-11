@@ -17,7 +17,9 @@ The HCFR project is located here:
 
 This project aims to collect output information of various consoles to aid in generating HCFR-compatible test patterns for the 240p Test Suite. Every console has a unique (and often non-standards-compliant) analogue video output, which makes using it as a calibration source to documented standards such as Rec.601 difficult. The values collected in this project account for those variances so that an unmofidied console can be used as an accurate colour pattern generator.
 
-Special thanks to [Artemio](https://twitter.com/Artemio) and [Keith Raney](https://twitter.com/khmr33) for their hard work finding out the console voltage variances, and collecting the data documented here. 
+Special thanks to [Artemio](https://twitter.com/Artemio) for his amazing work on the 240p Test Suite, and finding ways to make old consoles behave in standards-compliant ways, even when they really don't want to.
+
+Special thanks to [Keith Raney](https://twitter.com/khmr33) for his consistent efforts in pushing accuracy standards, continuously high quality testing, and deep knowledge of display characteristics and ongoing discoveries. 
 
 ## CSV Format
 
@@ -26,6 +28,14 @@ The CSV files are plain text UTF-8 comma separated, and are formatted left-to-ri
 * R, G, B values (one column each, 8 bit RGB full range 0-255)
 * X, Y, Z values (one column each)
 * L, a, b values (one column each)
+
+The CSV files are named with identifiers separated by underscore "_" characters, left to right:
+* Numeric order in which they should appear in a list for users to select
+* HCFR default or adjusted for a given console name
+* Colour space
+* White point temperature standard
+
+So for example, `01_hcfr_rec601_d65.csv` will appear first in the list, uses the unadjusted/default HCFR values, the Rec.601 colour space, and targets a CIE standard illuminant D65 (6504K) white point. No gamma values are required in the filenames, as these have no effect on the generator test patterns, are user-selected in HCFR and are dealt with at measurement time. 
 
 ## Alternative sources for colour pattern generation
 
